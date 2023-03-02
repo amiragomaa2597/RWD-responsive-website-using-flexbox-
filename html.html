@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD flex task </title>
+    <style>
+      
+        header
+{
+    width: 80%;
+    background-color: grey;  
+    padding: 20px;
+    margin: 5%;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: baseline;
+    align-content: space-around;
+    gap : 10px ;
+
+}
+
+header.div
+{
+    align-self : center;
+    flex-grow:5;
+
+}
+content{
+ width:80%;
+ 
+    background-color: grey;  
+    padding: 20px;
+    margin: 5%;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: baseline;
+    align-content: space-around;
+    gap : 10px ;
+    background-color: grey;  
+}
+.square_content{
+    width: 40%;
+   background-color:white; 
+   border: 8px solid black ;
+}
+
+p{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div>
+            Home
+        </div>
+        <div>
+           About
+        </div>
+        <div>
+            Services
+        </div>
+        <div>
+           Contact
+        </div>
+    
+    </header>
+    <content>
+ <div class="square_content"> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe obcaecati molestias, dolores aut quia nemo, tenetur odio quibusdam corporis excepturi voluptatibus ducimus modi aperiam facilis fugit ipsum impedit id labore.</p> 
+    <footer> footer</footer> 
+</div>
+ 
+ <div class="square_content"> 
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi animi necessitatibus, maxime voluptatibus quisquam numquam sequi illum inventore facilis beatae id nobis ratione odio est repellat neque incidunt minima!
+    </p>
+    <footer> footer</footer>
+    </div>
+    </content>
+</body>
+</html>
